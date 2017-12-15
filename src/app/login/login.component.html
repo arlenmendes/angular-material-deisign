@@ -1,0 +1,13 @@
+<div class="container">
+
+  <form class="form-login" #f="ngForm" (ngSubmit)="form_submit(f)">
+    <mat-form-field class="full-width">
+      <input matInput type="email" name="email" id="email" placeholder="Email">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <input matInput type="password" name="senha" id="senha" placeholder="Senha">
+    </mat-form-field>
+    <button type="submit" mat-raised-button color="primary">Entrar</button>
+  </form>
+</div>
